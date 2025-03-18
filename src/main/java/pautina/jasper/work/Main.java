@@ -4,7 +4,7 @@ import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.util.JRLoader;
 import net.sf.jasperreports.engine.xml.JRXmlWriter;
 import net.sf.jasperreports.engine.JasperReport;
-import net.sf.jasperreports.engine.xml.JRXmlWriter;
+
 
 public class Main {
     public static void main(String[] args) throws JRException {
