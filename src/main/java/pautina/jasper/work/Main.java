@@ -31,6 +31,7 @@ public class Main {
 
     public static void jasperDecompile(String sourceFile, String destinationFile) throws JRException {
         JasperReport report = (JasperReport) JRLoader.loadObjectFromFile(sourceFile);
+        System.out.println(report);
         JRXmlWriter.writeReport(report, destinationFile, "UTF-8");
 
         System.out.println(sourceFile + "decompiled!");
